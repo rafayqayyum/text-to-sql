@@ -5,7 +5,8 @@ max_words=500
 max_response=700
 openai.api_key =os.environ['OPENAI_API_KEY']
 #function to generate summary
-def generate_sql(prompt,dbtype='mysql'):
+def generate_sql(schema,text,dbtype='mysql'):
+  prompt="Schema:\n"+schema+"\n\nQuery:\n"+text+"\n\nSQL Query:"
   tokens_discarded=0
   try:
     message=[{"role":"system",'content':"You are given a schema and a natural language query. You convert the natural language query to SQL query for "+dbtype+" database."},

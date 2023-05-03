@@ -1,8 +1,7 @@
 import openai
 import os
 
-max_words=500
-max_response=700
+max_response=500
 openai.api_key =os.environ['OPENAI_API_KEY']
 #function to generate summary
 def generate_sql(schema,text,dbtype='mysql'):

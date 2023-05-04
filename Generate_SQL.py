@@ -13,6 +13,7 @@ def read_file(filename):
         return f.read()
 
 st.set_page_config(page_title="SQL Generator",layout='wide')
+
 #,page_icon='assets/logo.png'
 dbtypeSelected=None
 with st.sidebar:

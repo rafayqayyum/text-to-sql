@@ -12,9 +12,11 @@ This app allows users to convert text to SQL queries using the OpenAI GPT3-turbo
 
 # Usage
 1. Run the app
-```streamlit run main.py```
+```streamlit run .py`Generate_SQL.py``
 2. Select the database type you want to query
 3. Provide the schema of the database
-4. Provide the text you want to convert to SQL
-5. Click the button to convert the text to SQL
+4. Provide the text you want to convert to SQL.
+5. Click the button to convert the text to SQL.
+6. Or choose the open the schema generator page to generate a schema
+
 

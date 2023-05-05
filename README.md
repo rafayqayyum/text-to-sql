@@ -1,5 +1,5 @@
 # Text to SQL Converter App
-This app allows users to convert text to SQL queries using the OpenAI GPT3-turbo. It also features a user-friendly interface built with Streamlit. 
+This app allows users to convert text to SQL queries and generates database schema from text using the OpenAI GPT3-turbo. It also features a user-friendly interface built with Streamlit. 
 
 # Installation
 1. Clone the repository
